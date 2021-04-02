@@ -1,0 +1,20 @@
+Note: All the values in the dataset are dummy and shouldn't be related to real world!
+
+Data Dictionary:--
+
+AccID: An unique id for the account
+CategoryID: An unique id for the category of the society
+Category: Category of society 
+Value: The market value of the particular property (account)
+PropertySize: The size of the property in square metres
+BillingAmt: The total amount payable by the resident to the society management
+AverageBillingAmt: The average amount payable by the resident to the society management
+CollectedAmt: The total amount collected from the resident 
+AverageCollectedAmt: The average amount collected from the resident 
+DebtAmt: The Total Debt that is at 90 days or more
+WriteOffAmt: The Total amount of debt that has been written off
+CollectionRatio: The ratio between the total amount collected and Total Billing (ie. CollectedAmt/ BillingAmt)
+DebtBillingRatio: The ratio between the Total Debt and Total Billing (ie. (Total Debt + Total Write Off)/Total Billing)
+TotalElectricityBill: The total amount billed for electricity.
+HasID: The resident has an ID number. 
+Label: 1 = Is considered to be a Bad Debt, 0 = Not considered to be a Bad Debt
